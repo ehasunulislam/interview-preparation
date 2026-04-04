@@ -8,7 +8,7 @@ function App() {
     inputRef.current.focus();
   }, []);
 
-  return <input ref={inputRef} type="text" className='text-2xl ref-error' />;
+  // return <input ref={inputRef} type="text" className='text-2xl ref-error' />;
 }
 
 export default App
